@@ -1,0 +1,19 @@
+.custom-navbar {
+  background-color: #e5e7eb; /* light neutral background */
+  border-bottom: 1px solid #ddd;
+}
+
+.custom-navbar .brand {
+  font-weight: bold;
+  color: #087ea4; /* red accent */
+}
+
+.custom-navbar .nav-link {
+  color: #333 !important;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color:  #087ea4 !important; /* red accent on hover */
+}
