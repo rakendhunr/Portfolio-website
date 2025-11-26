@@ -1,0 +1,12 @@
+.card-body h5 {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+  font-size: 0.45rem;
+  size: 0.45rem;
+}
+.skill-name {
+  margin-left: 10px; /* adjust spacing as needed */
+}
