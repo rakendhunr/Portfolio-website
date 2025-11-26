@@ -1,19 +1,19 @@
 .custom-navbar {
-  background-color: #e5e7eb; /* light neutral background */
-  border-bottom: 1px solid #ddd;
+  background-color: #20232a; /* light neutral background */
+  border-bottom: 1px solid #20232a;
 }
 
 .custom-navbar .brand {
   font-weight: bold;
-  color: #087ea4; /* red accent */
+  color: #61dafb; /* red accent */
 }
 
 .custom-navbar .nav-link {
-  color: #333 !important;
+  color: #ffffff !important;
   margin-left: 1rem;
   transition: color 0.3s ease;
 }
 
 .custom-navbar .nav-link:hover {
-  color:  #087ea4 !important; /* red accent on hover */
+  color:  #61dafb !important; /* red accent on hover */
 }

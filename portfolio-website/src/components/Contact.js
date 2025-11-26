@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Form, Button } from "react-bootstrap";
+import '../App.css';
 
 function Contact() {
   return (
     <Container id="contact" className="my-5">
-      <h2>Contact</h2>
+      <div className="app-headings">Contact</div>
       <Form>
         <Form.Group className="mb-3" controlId="formName">
           <Form.Label>Name</Form.Label>

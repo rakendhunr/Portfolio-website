@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Card ,ProgressBar} from "react-bootstrap";
 import './Skills.css';
 import { FaReact, FaAngular, FaMicrosoft, FaCloud, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaPython, FaDatabase, FaCode } from "react-icons/fa";
-
+import '../App.css';
 
 function Skills() {
   const skills = [
@@ -26,33 +26,37 @@ function Skills() {
 
   return (
     <Container id="skills" className="my-5">
-      <h2 className="mb-4">Skills</h2>
+      <div className="app-headings">Skills</div>
       <Row>
           <Col md={6} >
-          <Card className="mb-2 text-center p-3">
+          <Card className="mb-2 text-center p-3 custom-shadow "bg={'dark'}
+          text={"light"}
+          >
         {leftSkills.map((skill) => (
           <>
             <div className="d-flex mt-1 pt-1 pr-1 mb-1 align-items-center">
               {skill.icon}
-              <h4 className="text-start skill-name">{skill.name}</h4>
+              <h5 className="text-start skill-name">{skill.name}</h5>
             </div>
 
-            <ProgressBar now={skill.level} label={`${skill.level}%`} striped variant="#087ea4"
-              className="mt-1" />
+            <ProgressBar now={skill.level}  striped variant="info"
+              className="mt-2 custom-progress progress" />
           </>
         ))}
          </Card>
          </Col>
          <Col md={6} >
-         <Card className="mb-2 text-center p-3">
+         <Card className="mb-2 text-center p-3 custom-shadow"
+         bg={'dark'}
+          text={"light"}>
         {rightSkills.map((skill) => (
             <>
               <div className="d-flex mt-1 pt-1 pr-1 mb-1 align-items-center">
               {skill.icon}
-              <h4 className="text-start skill-name">{skill.name}</h4>
+              <h5 className="text-start skill-name">{skill.name}</h5>
             </div>
-              <ProgressBar now={skill.level} label={`${skill.level}%`} striped variant="info" 
-                  className="mt-1"/>
+              <ProgressBar now={skill.level}  striped variant="info" 
+                  className="mt-2 custom-progress"/>
             </>
         ))}
           </Card>

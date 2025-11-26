@@ -1,12 +1,30 @@
 .card-body h5 {
   font-weight: 500;
   margin-bottom: 0.5rem;
+  
 }
 
-.progress-bar {
-  font-size: 0.45rem;
-  size: 0.45rem;
-}
 .skill-name {
-  margin-left: 10px; /* adjust spacing as needed */
+  margin-left: 10px; 
+  size: 1rem;
+}
+.progress {
+  height: 6px !important;
+}
+
+.custom-progress .progress-bar {
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.custom-shadow:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6),
+              0 0 15px rgba(0, 29, 60, 0.4); /* red glow */
+              
+}
+.custom-shadow {
+  transition: all 0.3s ease; /* smooth animation */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* base shadow */
 }
