@@ -2,7 +2,7 @@
   position: relative;
   margin: 2rem auto;
   padding-left: 2rem;
-  border-left: 3px solid #c00; /* red accent line */
+  border-left: 3px solid #61dafb; /* red accent line */
 }
 
 .roadmap-item {
@@ -12,15 +12,15 @@
 
 .roadmap-dot {
   position: absolute;
-  left: -10px;
+  left: -41px;
   top: 5px;
   width: 16px;
   height: 16px;
-  background-color: #c00;
+  background-color: #61dafb;
   border-radius: 50%;
 }
 
 .roadmap-content h4 {
-  color: #c00;
+  color: #61dafb;
   margin-bottom: 0.5rem;
 }

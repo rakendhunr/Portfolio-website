@@ -8,7 +8,7 @@
   font-size: 3rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  color:  #087ea4; /* red accent */
+  color:  #61dafb; /* red accent */
 }
 
 .hero-subtitle {
@@ -17,24 +17,9 @@
   font-weight: 300;
 }
 
-.hero-button {
-  border: 1px solid #ffffff;
-  padding: 0.5rem 1.5rem;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  color: #ffffff;
-  background-color: #61dafb;
-}
-
-.hero-button:hover {
-  background-color:  #087ea4;
-  color: #fff;
-  border-color:  #087ea4;
-}
 .hero-image {
-  max-width: 350px;
+  max-width: 85%;
   max-height:fit-content;
-  border-radius: 70%; /* circular profile picture */
- 
+  border-radius: 70%;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }

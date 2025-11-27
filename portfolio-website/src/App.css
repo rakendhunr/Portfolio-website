@@ -47,3 +47,29 @@
   margin-bottom: 1rem;
   color:  #61dafb; /* red accent */
 }
+.projected-section {
+  transition: all 0.3s ease; /* smooth animation */
+  
+}
+
+.projected-section:hover {
+  transform: translateY(-5px) scale(1.02); /* lift + slight zoom */
+  
+}
+.app-common-color{
+  color: #61dafb; /* red accent */
+}
+.app-common-button {
+  border: 1px solid #ffffff;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  color: #ffffff;
+  background-color: #61dafb;
+}
+
+.app-common-button:hover {
+  background-color:  #61dafb;
+  color: #fff;
+  border-color:  #61dafb;
+}

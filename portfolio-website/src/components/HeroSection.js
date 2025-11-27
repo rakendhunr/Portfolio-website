@@ -16,7 +16,7 @@ function HeroSection() {
         <p className="hero-subtitle">
           Full-Stack Software Engineer | Masters Student 
         </p>
-        <Button variant="outline-info" href="#projects" className="hero-button">
+        <Button variant="outline-info" href="#projects" className="app-common-button">
           View My Work
         </Button>
         </Col>
