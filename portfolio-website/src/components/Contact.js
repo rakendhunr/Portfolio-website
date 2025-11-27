@@ -5,6 +5,7 @@ import "./Contact.css";
 import { useState } from "react";
 import { Alert } from "react-bootstrap";
 import emailjs from "emailjs-com";
+
 function Contact() {
   const [formData, setformData] = useState({
     name: "",
@@ -15,10 +16,8 @@ function Contact() {
   const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (e) => {
-    {
-      setError("");
-      setformData({ ...formData, [e.target.name]: e.target.value });
-    }
+    setError("");
+    setformData({ ...formData, [e.target.name]: e.target.value });
   };
   const handleSubmit = (e) => {
     e.preventDefault();

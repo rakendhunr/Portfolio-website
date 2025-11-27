@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card ,ProgressBar} from "react-bootstrap";
 import './Skills.css';
-import { FaReact, FaAngular, FaMicrosoft, FaCloud, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaPython, FaDatabase, FaCode } from "react-icons/fa";
+import { FaReact, FaAngular, FaMicrosoft, FaCloud, FaHtml5, FaJs, FaGitAlt, FaPython, FaDatabase, FaCode } from "react-icons/fa";
 import '../App.css';
 
 function Skills() {
